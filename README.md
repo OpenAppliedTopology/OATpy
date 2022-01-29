@@ -1,5 +1,3 @@
-This is the repository in which the Rust source code for ExHACT was first developed. It is now deprecated but is being retained for record keeping purposes. Please do not modify or delete.
-
 # How to build documentation
 
 * install rust
