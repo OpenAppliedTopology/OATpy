@@ -1,0 +1,30 @@
+[package]
+name = "exhact"
+version = "0.1.0"
+authors = ["Haibin9632 <haibin.hang312@gmail.com>"]
+edition = "2018"
+description = "Sparse homological algebra"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+tuple-conv = "1.0.1"
+csv = "1.1"
+ordered-float = "2.0"
+num = "0.4.0"
+ndarray-npy = "0.7.2"
+ndarray = "0.14.0"
+npy = "0.4"
+npy-derive = "0.4"
+
+
+[profile.release]
+debug = true
+
+
+[package.metadata.docs.rs]
+features = ["docs"]
